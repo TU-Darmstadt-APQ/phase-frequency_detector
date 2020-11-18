@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PFD_HMC439QS16G-rescue)(type Legacy)(uri ${KIPRJMOD}/PFD_HMC439QS16G-rescue.lib)(options "")(descr ""))
+  (lib (name Linear-Technology)(type Legacy)(uri "${KIPRJMOD}/libraries/Linear Technology.lib")(options "")(descr ""))
+)
