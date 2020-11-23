@@ -5,9 +5,8 @@ D High Precision +-10V Reference
 $ENDCMP
 #
 $CMP ADA4896-2ARMZ
-D Dual Op amp (low power)
+D 1 nV/√Hz, Low Power,Rail-to-Rail Output Amplifier
 K ampliop
-F analog-dev/op275.pdf
 $ENDCMP
 #
 $CMP LM399
