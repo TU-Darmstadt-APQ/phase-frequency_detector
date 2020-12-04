@@ -1,4 +1,4 @@
-### Module positions - created on 23.11.2020 23:15:16 ###
+### Module positions - created on 04.12.2020 17:06:16 ###
 ### Printed by Pcbnew version kicad (5.1.5)-3
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -42,7 +42,7 @@ R12       200            R_0603_1608Metric                            145.2500  
 R13       200            R_0603_1608Metric                            141.2500   -98.7500  270.0000  top
 R14       100            R_0603_1608Metric                            137.5000   -98.7500   90.0000  top
 R15       49.9           R_1210_3225Metric                            119.1000   -91.8000    0.0000  top
-R16       200            R_0603_1608Metric                            145.7500  -121.0000  180.0000  top
+R16       200            R_0603_1608Metric                            144.4000  -112.0500   90.0000  top
 R17       200            R_0603_1608Metric                            134.0000  -114.2500  180.0000  top
 R18       200            R_0603_1608Metric                            127.5000  -110.7500  270.0000  top
 R19       51             R_1210_3225Metric                            126.2000  -105.5000  270.0000  top

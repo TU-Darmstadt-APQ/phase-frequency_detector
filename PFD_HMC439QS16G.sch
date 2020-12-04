@@ -1422,7 +1422,7 @@ F 1 "1k" H 6530 4005 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_43_Horizontal" H 6600 4050 50  0001 C CNN
 F 3 "~" H 6600 4050 50  0001 C CNN
 	1    6600 4050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0109
