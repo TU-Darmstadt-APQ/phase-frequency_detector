@@ -9,6 +9,11 @@ D 1 nV/√Hz, Low Power,Rail-to-Rail Output Amplifier
 K ampliop
 $ENDCMP
 #
+$CMP HMC365S8G
+D DIVIDE-BY-4, DC - 13 GHz
+F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC365S8G.pdf
+$ENDCMP
+#
 $CMP LM399
 D Precision Reference, 6.95V
 K Reference
