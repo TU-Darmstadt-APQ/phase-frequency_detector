@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "HMC439 Phase-Frequency Detector"
-Date "2021-03-18"
-Rev "1.2"
+Date "2021-08-22"
+Rev "1.2b"
 Comp "APQ"
 Comment1 "Tilman Preuschoff"
 Comment2 ""
@@ -185,17 +185,6 @@ F 3 "" H 2400 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C2
-U 1 1 5C6B19B9
-P 2150 3800
-F 0 "C2" H 2160 3870 50  0000 L CNN
-F 1 "100p" H 2160 3720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2150 3800 50  0001 C CNN
-F 3 "" H 2150 3800 50  0001 C CNN
-	1    2150 3800
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C_Small C6
 U 1 1 5C6B1ADB
 P 2400 3950
@@ -297,12 +286,12 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J2
 U 1 1 5C6B26F6
-P 1450 1350
-F 0 "J2" H 1450 1500 50  0000 C CNN
-F 1 "IN" V 1550 1350 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1450 1350 50  0001 C CNN
-F 3 "" H 1450 1350 50  0001 C CNN
-	1    1450 1350
+P 1700 3800
+F 0 "J2" H 1700 3950 50  0000 C CNN
+F 1 "IN" V 1800 3800 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1700 3800 50  0001 C CNN
+F 3 "" H 1700 3800 50  0001 C CNN
+	1    1700 3800
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1413,87 +1402,29 @@ Connection ~ 7050 1500
 Wire Wire Line
 	9800 1300 9800 1900
 $Comp
-L Linear-Technology:HMC365S8G U6
-U 1 1 6058F7BE
-P 3050 1700
-F 0 "U6" H 3050 2337 60  0000 C CNN
-F 1 "HMC365S8G" H 3050 2231 60  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm" H 3050 1700 60  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/HMC365S8G.pdf" H 3050 1700 60  0001 C CNN
-	1    3050 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C26
 U 1 1 605ABF87
-P 2200 1350
-F 0 "C26" H 2210 1420 50  0000 L CNN
-F 1 "100p" H 2210 1270 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2200 1350 50  0001 C CNN
-F 3 "" H 2200 1350 50  0001 C CNN
-	1    2200 1350
+P 2150 3800
+F 0 "C26" H 2160 3870 50  0000 L CNN
+F 1 "100p" H 2160 3720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2150 3800 50  0001 C CNN
+F 3 "" H 2150 3800 50  0001 C CNN
+	1    2150 3800
 	0    1    -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 605AD690
-P 2400 1850
-F 0 "#PWR0105" H 2400 1600 50  0001 C CNN
-F 1 "GND" H 2405 1677 50  0000 C CNN
-F 2 "" H 2400 1850 50  0001 C CNN
-F 3 "" H 2400 1850 50  0001 C CNN
-	1    2400 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 605ADE4E
-P 2100 1850
-F 0 "#PWR0106" H 2100 1600 50  0001 C CNN
-F 1 "GND" H 2105 1677 50  0000 C CNN
-F 2 "" H 2100 1850 50  0001 C CNN
-F 3 "" H 2100 1850 50  0001 C CNN
-	1    2100 1850
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0110
 U 1 1 605BA26B
-P 1450 1850
-F 0 "#PWR0110" H 1450 1600 50  0001 C CNN
-F 1 "GND" H 1455 1677 50  0000 C CNN
-F 2 "" H 1450 1850 50  0001 C CNN
-F 3 "" H 1450 1850 50  0001 C CNN
-	1    1450 1850
+P 1700 4300
+F 0 "#PWR0110" H 1700 4050 50  0001 C CNN
+F 1 "GND" H 1705 4127 50  0000 C CNN
+F 2 "" H 1700 4300 50  0001 C CNN
+F 3 "" H 1700 4300 50  0001 C CNN
+	1    1700 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1550 1450 1850
-Wire Wire Line
-	2400 1750 2400 1850
-Wire Wire Line
-	2400 1750 2550 1750
-$Comp
-L Device:C_Small C25
-U 1 1 605DBB01
-P 2100 1700
-F 0 "C25" H 2110 1770 50  0000 L CNN
-F 1 "100p" H 2110 1620 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2100 1700 50  0001 C CNN
-F 3 "" H 2100 1700 50  0001 C CNN
-	1    2100 1700
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2550 1550 2100 1550
-Wire Wire Line
-	2100 1550 2100 1600
-Wire Wire Line
-	2100 1850 2100 1800
-Wire Wire Line
-	1650 1350 2100 1350
-Wire Wire Line
-	2300 1350 2550 1350
+	1700 4000 1700 4300
 Wire Wire Line
 	1300 3700 1300 3750
 Wire Wire Line
@@ -1503,47 +1434,6 @@ Wire Wire Line
 Connection ~ 1300 3750
 Wire Wire Line
 	1300 3750 1300 3800
-Text GLabel 3800 1050 1    60   Input ~ 0
-+5V
-$Comp
-L Device:C_Small C28
-U 1 1 60639204
-P 4250 1250
-F 0 "C28" H 4260 1320 50  0000 L CNN
-F 1 "100n" H 4260 1170 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4250 1250 50  0001 C CNN
-F 3 "" H 4250 1250 50  0001 C CNN
-	1    4250 1250
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3800 1050 3800 1150
-Wire Wire Line
-	3800 1350 3550 1350
-Wire Wire Line
-	3800 1150 4250 1150
-Connection ~ 3800 1150
-Wire Wire Line
-	3800 1150 3800 1350
-$Comp
-L power:GND #PWR0111
-U 1 1 60661DA4
-P 4250 1450
-F 0 "#PWR0111" H 4250 1200 50  0001 C CNN
-F 1 "GND" H 4255 1277 50  0000 C CNN
-F 2 "" H 4250 1450 50  0001 C CNN
-F 3 "" H 4250 1450 50  0001 C CNN
-	1    4250 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 1350 4250 1450
-Text GLabel 3750 1550 2    60   Output ~ 0
-Div_out
-Wire Wire Line
-	3750 1550 3550 1550
-Text GLabel 1900 3800 0    60   Input ~ 0
-Div_out
 Wire Wire Line
 	2050 3800 1900 3800
 $Comp
@@ -1561,45 +1451,6 @@ Wire Wire Line
 	2300 3950 2150 3950
 Wire Wire Line
 	2150 3950 2150 4150
-$Comp
-L power:GND #PWR0113
-U 1 1 606F498E
-P 3950 2450
-F 0 "#PWR0113" H 3950 2200 50  0001 C CNN
-F 1 "GND" H 3955 2277 50  0000 C CNN
-F 2 "" H 3950 2450 50  0001 C CNN
-F 3 "" H 3950 2450 50  0001 C CNN
-	1    3950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C27
-U 1 1 606F5D57
-P 3950 1950
-F 0 "C27" H 3960 2020 50  0000 L CNN
-F 1 "1n" H 3960 1870 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3950 1950 50  0001 C CNN
-F 3 "" H 3950 1950 50  0001 C CNN
-	1    3950 1950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R20
-U 1 1 606F85CF
-P 3950 2250
-F 0 "R20" H 3980 2270 50  0000 L CNN
-F 1 "49.9" H 3980 2210 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 2250 50  0001 C CNN
-F 3 "" H 3950 2250 50  0001 C CNN
-	1    3950 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 1750 3950 1850
-Wire Wire Line
-	3550 1750 3950 1750
-Wire Wire Line
-	3950 2150 3950 2050
 Wire Wire Line
 	3950 2450 3950 2350
 $Comp
