@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "HMC439 Phase-Frequency Detector"
-Date "2021-08-22"
-Rev "1.2b"
+Title "HMC439 Phase-Frequency Detector (no divider)"
+Date "2021-08-23"
+Rev "1.3"
 Comp "APQ"
 Comment1 "Tilman Preuschoff"
 Comment2 ""
