@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "HMC439 Phase-Frequency Detector"
-Date "2021-08-22"
-Rev "1.2b"
+Title "HMC439 Phase-Frequency Detector (no divider)"
+Date "2021-08-23"
+Rev "1.3"
 Comp "APQ"
 Comment1 "Tilman Preuschoff"
 Comment2 ""
@@ -42,7 +42,7 @@ L Device:C_Small C7
 U 1 1 5C66ABFD
 P 3150 6200
 F 0 "C7" H 3160 6270 50  0000 L CNN
-F 1 "0.47u" H 3160 6120 50  0000 L CNN
+F 1 "100n C0G" H 3160 6120 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3150 6200 50  0001 C CNN
 F 3 "" H 3150 6200 50  0001 C CNN
 	1    3150 6200
@@ -99,7 +99,7 @@ L Device:C_Small C8
 U 1 1 5C6B05F4
 P 3150 6700
 F 0 "C8" H 3160 6770 50  0000 L CNN
-F 1 "0.47u" H 3160 6620 50  0000 L CNN
+F 1 "100n C0G" H 3160 6620 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3150 6700 50  0001 C CNN
 F 3 "" H 3150 6700 50  0001 C CNN
 	1    3150 6700
