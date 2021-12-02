@@ -582,7 +582,6 @@ Wire Wire Line
 Connection ~ 2800 7300
 Wire Wire Line
 	2400 7400 2400 7050
-Connection ~ 2400 7400
 Wire Wire Line
 	3400 6850 3400 6800
 Wire Wire Line
@@ -951,13 +950,13 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FC4D7E9
-P 1550 7300
-F 0 "#FLG0102" H 1550 7375 50  0001 C CNN
-F 1 "PWR_FLAG" H 1550 7473 50  0000 C CNN
-F 2 "" H 1550 7300 50  0001 C CNN
-F 3 "~" H 1550 7300 50  0001 C CNN
-	1    1550 7300
-	1    0    0    -1  
+P 1150 7500
+F 0 "#FLG0102" H 1150 7575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1150 7673 50  0000 C CNN
+F 2 "" H 1150 7500 50  0001 C CNN
+F 3 "~" H 1150 7500 50  0001 C CNN
+	1    1150 7500
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
@@ -1451,125 +1450,6 @@ Wire Wire Line
 	2300 3950 2150 3950
 Wire Wire Line
 	2150 3950 2150 4150
-Wire Wire Line
-	3950 2450 3950 2350
-$Comp
-L Regulator_Linear:L7809 U7
-U 1 1 6072AEBC
-P 7300 5500
-F 0 "U7" H 7300 5742 50  0000 C CNN
-F 1 "L7809" H 7300 5651 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7325 5350 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 7300 5450 50  0001 C CNN
-	1    7300 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C30
-U 1 1 6072DEF0
-P 6700 5650
-F 0 "C30" H 6710 5720 50  0000 L CNN
-F 1 "100n" H 6710 5570 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6700 5650 50  0001 C CNN
-F 3 "" H 6700 5650 50  0001 C CNN
-	1    6700 5650
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C31
-U 1 1 6072E42F
-P 7850 5650
-F 0 "C31" H 7860 5720 50  0000 L CNN
-F 1 "100n" H 7860 5570 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7850 5650 50  0001 C CNN
-F 3 "" H 7850 5650 50  0001 C CNN
-	1    7850 5650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:CP_Small C29
-U 1 1 6072EEAE
-P 6300 5650
-F 0 "C29" H 6388 5696 50  0000 L CNN
-F 1 "100u" H 6388 5605 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6300 5650 50  0001 C CNN
-F 3 "~" H 6300 5650 50  0001 C CNN
-	1    6300 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 607378F7
-P 7300 6000
-F 0 "#PWR0114" H 7300 5750 50  0001 C CNN
-F 1 "GND" H 7305 5827 50  0000 C CNN
-F 2 "" H 7300 6000 50  0001 C CNN
-F 3 "" H 7300 6000 50  0001 C CNN
-	1    7300 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 5800 7300 5900
-Wire Wire Line
-	6300 5750 6300 5900
-Wire Wire Line
-	6300 5900 6700 5900
-Connection ~ 7300 5900
-Wire Wire Line
-	7300 5900 7300 6000
-Wire Wire Line
-	6700 5750 6700 5900
-Connection ~ 6700 5900
-Wire Wire Line
-	6700 5900 7300 5900
-Wire Wire Line
-	7300 5900 7850 5900
-Wire Wire Line
-	8150 5900 8150 5750
-Wire Wire Line
-	7850 5750 7850 5900
-Connection ~ 7850 5900
-Wire Wire Line
-	7850 5900 8150 5900
-Wire Wire Line
-	6300 5500 6300 5550
-Wire Wire Line
-	6300 5500 6700 5500
-Wire Wire Line
-	6700 5550 6700 5500
-Connection ~ 6700 5500
-Wire Wire Line
-	6700 5500 7000 5500
-Wire Wire Line
-	7600 5500 7850 5500
-Wire Wire Line
-	7850 5500 7850 5550
-Wire Wire Line
-	7850 5500 8150 5500
-Wire Wire Line
-	8150 5500 8150 5550
-Connection ~ 7850 5500
-Text GLabel 8500 5500 2    60   Output ~ 0
-+9V
-Text GLabel 5950 5500 0    60   Input ~ 0
-+15V
-Wire Wire Line
-	5950 5500 6300 5500
-Connection ~ 6300 5500
-Wire Wire Line
-	8150 5500 8500 5500
-Connection ~ 8150 5500
-$Comp
-L Device:CP_Small C32
-U 1 1 6080F299
-P 8150 5650
-F 0 "C32" H 8238 5696 50  0000 L CNN
-F 1 "100u" H 8238 5605 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 8150 5650 50  0001 C CNN
-F 3 "~" H 8150 5650 50  0001 C CNN
-	1    8150 5650
-	1    0    0    -1  
-$EndComp
 Text GLabel 1550 5500 0    60   Input ~ 0
 +9V
 $Comp
@@ -1598,11 +1478,6 @@ Wire Wire Line
 	7200 2100 7150 2100
 Wire Wire Line
 	1000 7400 1150 7400
-Wire Wire Line
-	1550 7300 1550 7400
-Connection ~ 1550 7400
-Wire Wire Line
-	1550 7400 2400 7400
 Wire Wire Line
 	1000 7300 1150 7300
 Wire Wire Line
@@ -1780,4 +1655,270 @@ Wire Wire Line
 	9800 2250 9800 1900
 Text Notes 9500 2650 0    60   ~ 0
 Use C33/C34 instead of JP1/JP2\nif AC-coupling is required.
+$Comp
+L Regulator_Linear:LM7808_TO220 U7
+U 1 1 6072AEBC
+P 3900 950
+F 0 "U7" H 3900 1192 50  0000 C CNN
+F 1 "LM7808" H 3900 1101 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3925 800 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3900 900 50  0001 C CNN
+	1    3900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C30
+U 1 1 6072DEF0
+P 3300 1100
+F 0 "C30" H 3310 1170 50  0000 L CNN
+F 1 "100n" H 3310 1020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3300 1100 50  0001 C CNN
+F 3 "" H 3300 1100 50  0001 C CNN
+	1    3300 1100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 6072E42F
+P 4450 1100
+F 0 "C31" H 4460 1170 50  0000 L CNN
+F 1 "100n" H 4460 1020 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4450 1100 50  0001 C CNN
+F 3 "" H 4450 1100 50  0001 C CNN
+	1    4450 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP_Small C29
+U 1 1 6072EEAE
+P 2900 1100
+F 0 "C29" H 2988 1146 50  0000 L CNN
+F 1 "100u" H 2988 1055 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2900 1100 50  0001 C CNN
+F 3 "~" H 2900 1100 50  0001 C CNN
+	1    2900 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1250 3900 1350
+Wire Wire Line
+	2900 1200 2900 1350
+Wire Wire Line
+	2900 1350 3300 1350
+Connection ~ 3900 1350
+Wire Wire Line
+	3900 1350 3900 1450
+Wire Wire Line
+	3300 1200 3300 1350
+Connection ~ 3300 1350
+Wire Wire Line
+	3300 1350 3900 1350
+Wire Wire Line
+	3900 1350 4450 1350
+Wire Wire Line
+	4750 1350 4750 1200
+Wire Wire Line
+	4450 1200 4450 1350
+Connection ~ 4450 1350
+Wire Wire Line
+	4450 1350 4750 1350
+Wire Wire Line
+	2900 950  2900 1000
+Wire Wire Line
+	2900 950  3300 950 
+Wire Wire Line
+	3300 1000 3300 950 
+Connection ~ 3300 950 
+Wire Wire Line
+	3300 950  3600 950 
+Wire Wire Line
+	4200 950  4450 950 
+Wire Wire Line
+	4450 950  4450 1000
+Wire Wire Line
+	4450 950  4750 950 
+Wire Wire Line
+	4750 950  4750 1000
+Connection ~ 4450 950 
+Text GLabel 5100 950  2    60   Output ~ 0
++9V
+Text GLabel 2400 950  0    60   Input ~ 0
++15V
+Connection ~ 2900 950 
+Wire Wire Line
+	4750 950  5100 950 
+Connection ~ 4750 950 
+$Comp
+L Device:CP_Small C32
+U 1 1 6080F299
+P 4750 1100
+F 0 "C32" H 4838 1146 50  0000 L CNN
+F 1 "100u" H 4838 1055 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4750 1100 50  0001 C CNN
+F 3 "~" H 4750 1100 50  0001 C CNN
+	1    4750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS D1
+U 1 1 61AA2798
+P 2550 1150
+F 0 "D1" V 2504 1230 50  0000 L CNN
+F 1 "SMB" V 2595 1230 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 2550 1150 50  0001 C CNN
+F 3 "~" H 2550 1150 50  0001 C CNN
+F 4 "Bourns" V 2550 1150 50  0001 C CNN "MFN"
+F 5 "SMBJ40CA-QH" V 2550 1150 50  0001 C CNN "PN"
+	1    2550 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 1300 2550 1350
+Wire Wire Line
+	2550 1350 2900 1350
+Connection ~ 2900 1350
+Wire Wire Line
+	2400 950  2550 950 
+Wire Wire Line
+	2550 1000 2550 950 
+Connection ~ 2550 950 
+Wire Wire Line
+	2550 950  2900 950 
+$Comp
+L Device:C_Small C25
+U 1 1 61C3E288
+P 3300 1600
+F 0 "C25" H 3310 1670 50  0000 L CNN
+F 1 "100n" H 3310 1520 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C27
+U 1 1 61C3E292
+P 4450 1600
+F 0 "C27" H 4460 1670 50  0000 L CNN
+F 1 "100n" H 4460 1520 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4450 1600 50  0001 C CNN
+F 3 "" H 4450 1600 50  0001 C CNN
+	1    4450 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C2
+U 1 1 61C3E29C
+P 2900 1600
+F 0 "C2" H 2988 1646 50  0000 L CNN
+F 1 "100u" H 2988 1555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2900 1600 50  0001 C CNN
+F 3 "~" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1500 2900 1350
+Wire Wire Line
+	3300 1500 3300 1350
+Wire Wire Line
+	4750 1350 4750 1500
+Wire Wire Line
+	4450 1500 4450 1350
+Wire Wire Line
+	2900 1750 2900 1700
+Wire Wire Line
+	2900 1750 3300 1750
+Wire Wire Line
+	3300 1700 3300 1750
+Connection ~ 3300 1750
+Wire Wire Line
+	3300 1750 3600 1750
+Wire Wire Line
+	4200 1750 4450 1750
+Wire Wire Line
+	4450 1750 4450 1700
+Wire Wire Line
+	4450 1750 4750 1750
+Wire Wire Line
+	4750 1750 4750 1700
+Connection ~ 4450 1750
+Text GLabel 5100 1750 2    60   Output ~ 0
+-9V
+Text GLabel 2400 1750 0    60   Input ~ 0
+-15V
+Connection ~ 2900 1750
+Wire Wire Line
+	4750 1750 5100 1750
+Connection ~ 4750 1750
+$Comp
+L Device:CP_Small C28
+U 1 1 61C3E2CC
+P 4750 1600
+F 0 "C28" H 4838 1646 50  0000 L CNN
+F 1 "100u" H 4838 1555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4750 1600 50  0001 C CNN
+F 3 "~" H 4750 1600 50  0001 C CNN
+	1    4750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS D2
+U 1 1 61C3E2D8
+P 2550 1550
+F 0 "D2" V 2596 1630 50  0000 L CNN
+F 1 "SMB" V 2505 1630 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 2550 1550 50  0001 C CNN
+F 3 "~" H 2550 1550 50  0001 C CNN
+F 4 "Bourns" V 2550 1550 50  0001 C CNN "MFN"
+F 5 "SMBJ40CA-QH" V 2550 1550 50  0001 C CNN "PN"
+	1    2550 1550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2550 1400 2550 1350
+Wire Wire Line
+	2400 1750 2550 1750
+Wire Wire Line
+	2550 1700 2550 1750
+Connection ~ 2550 1750
+Wire Wire Line
+	2550 1750 2900 1750
+Connection ~ 2550 1350
+Connection ~ 4750 1350
+$Comp
+L Regulator_Linear:LM7908_TO220 U6
+U 1 1 61C9C388
+P 3900 1750
+F 0 "U6" H 3900 1601 50  0000 C CNN
+F 1 "LM7908_TO220" H 3900 1510 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 3900 1550 50  0001 C CIN
+F 3 "https://www.onsemi.com/pub/Collateral/MC7900-D.PDF" H 3900 1750 50  0001 C CNN
+	1    3900 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 7400 2    60   Output ~ 0
+-15V
+Wire Wire Line
+	1150 7500 1150 7400
+Text GLabel 2250 7400 0    60   Input ~ 0
+-9V
+Wire Wire Line
+	2250 7400 2400 7400
+Connection ~ 2400 7400
+$Comp
+L power:GND #PWR0105
+U 1 1 61D74BD3
+P 2300 1450
+F 0 "#PWR0105" H 2300 1200 50  0001 C CNN
+F 1 "GND" H 2305 1277 50  0000 C CNN
+F 2 "" H 2300 1450 50  0001 C CNN
+F 3 "" H 2300 1450 50  0001 C CNN
+	1    2300 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1350 2300 1350
+Wire Wire Line
+	2300 1350 2300 1450
 $EndSCHEMATC
