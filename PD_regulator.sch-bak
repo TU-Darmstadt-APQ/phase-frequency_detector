@@ -541,23 +541,8 @@ Wire Wire Line
 	8200 2400 7950 2400
 Wire Wire Line
 	8800 2400 8700 2400
-Text GLabel 3600 4150 3    60   Input ~ 0
+Text GLabel 3150 4350 2    60   Input ~ 0
 +5V
-$Comp
-L power:GND #PWR0120
-U 1 1 61F6D5A6
-P 2550 4650
-F 0 "#PWR0120" H 2550 4400 50  0001 C CNN
-F 1 "GND" H 2550 4500 50  0000 C CNN
-F 2 "" H 2550 4650 50  0001 C CNN
-F 3 "" H 2550 4650 50  0001 C CNN
-	1    2550 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 4550 2550 4650
-Wire Wire Line
-	2550 4550 2750 4550
 $Comp
 L Device:R_Small R21
 U 1 1 61FA9C4C
@@ -708,49 +693,16 @@ Text GLabel 5200 5150 2    60   Input ~ 0
 S4
 Text GLabel 5600 5250 2    60   Input ~ 0
 D4
-$Comp
-L Switch:SW_Push_DPDT SW*1
-U 1 1 61F56921
-P 2950 4650
-F 0 "SW*1" H 2950 5135 50  0000 C CNN
-F 1 "Lock / Gain sign" H 2950 5044 50  0000 C CNN
-F 2 "" H 2950 4850 50  0001 C CNN
-F 3 "~" H 2950 4850 50  0001 C CNN
-	1    2950 4650
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 4700 4100 4700
 Wire Wire Line
 	4100 4700 4100 4450
 Wire Wire Line
 	4100 4450 4400 4450
-Wire Wire Line
-	4100 4450 3800 4450
 Connection ~ 4100 4450
 Wire Wire Line
-	2750 4950 2700 4950
-Wire Wire Line
-	2300 4950 2300 4350
-Wire Wire Line
-	2300 4350 2750 4350
-Wire Wire Line
-	2750 4750 2700 4750
-Wire Wire Line
-	2700 4750 2700 4950
-Connection ~ 2700 4950
-Wire Wire Line
-	2700 4950 2300 4950
-Wire Wire Line
 	3700 5200 3700 5300
-Wire Wire Line
-	3700 4850 3700 5200
-Wire Wire Line
-	3150 4850 3700 4850
 Connection ~ 3700 5200
-Wire Wire Line
-	2300 4350 2200 4350
-Connection ~ 2300 4350
 Wire Wire Line
 	5200 5250 5500 5250
 Wire Wire Line
@@ -765,39 +717,25 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J5
 U 1 1 620A028C
-P 3600 3850
-F 0 "J5" V 3564 3562 50  0000 R CNN
-F 1 "Switch" V 3473 3562 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3600 3850 50  0001 C CNN
-F 3 "~" H 3600 3850 50  0001 C CNN
-	1    3600 3850
-	0    -1   -1   0   
+P 2850 4450
+F 0 "J5" V 2814 4162 50  0000 R CNN
+F 1 "Switch" V 2723 4162 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2850 4450 50  0001 C CNN
+F 3 "~" H 2850 4450 50  0001 C CNN
+	1    2850 4450
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3700 4850 3700 4050
-Connection ~ 3700 4850
-Wire Wire Line
-	3800 4450 3800 4050
-Connection ~ 3800 4450
-Wire Wire Line
-	3800 4450 3150 4450
 $Comp
 L power:GND #PWR0125
 U 1 1 620B089E
-P 3500 4150
-F 0 "#PWR0125" H 3500 3900 50  0001 C CNN
-F 1 "GND" H 3500 4000 50  0000 C CNN
-F 2 "" H 3500 4150 50  0001 C CNN
-F 3 "" H 3500 4150 50  0001 C CNN
-	1    3500 4150
+P 3600 4250
+F 0 "#PWR0125" H 3600 4000 50  0001 C CNN
+F 1 "GND" H 3600 4100 50  0000 C CNN
+F 2 "" H 3600 4250 50  0001 C CNN
+F 3 "" H 3600 4250 50  0001 C CNN
+	1    3600 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 4150 3600 4050
-Wire Wire Line
-	3500 4150 3500 4050
-Text GLabel 2200 4350 0    60   Input ~ 0
-+5V
 Wire Wire Line
 	4400 4950 4100 4950
 Wire Wire Line
@@ -820,4 +758,14 @@ Wire Wire Line
 	5200 4900 5700 4900
 Wire Wire Line
 	5700 4900 5700 4950
+Wire Wire Line
+	3050 4550 3700 4550
+Wire Wire Line
+	3700 4550 3700 5200
+Wire Wire Line
+	3050 4450 4100 4450
+Wire Wire Line
+	3600 4250 3050 4250
+Wire Wire Line
+	3150 4350 3050 4350
 $EndSCHEMATC
