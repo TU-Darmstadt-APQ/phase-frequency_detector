@@ -541,7 +541,7 @@ Wire Wire Line
 	8200 2400 7950 2400
 Wire Wire Line
 	8800 2400 8700 2400
-Text GLabel 3150 4350 2    60   Input ~ 0
+Text GLabel 3250 4350 2    60   Input ~ 0
 +5V
 $Comp
 L Device:R_Small R21
@@ -720,7 +720,7 @@ U 1 1 620A028C
 P 2850 4450
 F 0 "J5" V 2814 4162 50  0000 R CNN
 F 1 "Switch" V 2723 4162 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2850 4450 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 2850 4450 50  0001 C CNN
 F 3 "~" H 2850 4450 50  0001 C CNN
 	1    2850 4450
 	-1   0    0    1   
@@ -768,4 +768,27 @@ Wire Wire Line
 	3600 4250 3050 4250
 Wire Wire Line
 	3150 4350 3050 4350
+$Comp
+L Device:C_Small C?
+U 1 1 61E8ECDD
+P 3150 4050
+F 0 "C?" H 3160 4120 50  0000 L CNN
+F 1 "100n" H 3160 3970 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3150 4050 50  0001 C CNN
+F 3 "" H 3150 4050 50  0001 C CNN
+	1    3150 4050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3150 4150 3150 4350
+Wire Wire Line
+	3150 4350 3250 4350
+Connection ~ 3150 4350
+Wire Wire Line
+	3150 3950 3150 3850
+Wire Wire Line
+	3150 3850 3600 3850
+Wire Wire Line
+	3600 3850 3600 4250
+Connection ~ 3600 4250
 $EndSCHEMATC

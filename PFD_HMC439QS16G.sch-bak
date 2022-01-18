@@ -157,7 +157,7 @@ U 1 1 5C6B146B
 P 1300 3500
 F 0 "J1" H 1300 3650 50  0000 C CNN
 F 1 "REF" V 1400 3500 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1300 3500 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1300 3500 50  0001 C CNN
 F 3 "" H 1300 3500 50  0001 C CNN
 	1    1300 3500
 	-1   0    0    -1  
@@ -300,7 +300,7 @@ U 1 1 5C6B26F6
 P 2850 1100
 F 0 "J2" H 2850 1250 50  0000 C CNN
 F 1 "IN" V 2950 1100 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 2850 1100 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2850 1100 50  0001 C CNN
 F 3 "" H 2850 1100 50  0001 C CNN
 	1    2850 1100
 	-1   0    0    -1  
