@@ -64,8 +64,8 @@
       35,
       36
     ],
-    "visible_layers": "000d1b4_80000001",
-    "zone_display_mode": 1
+    "visible_layers": "002d1b4_80000001",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "PFD_HMC439QS16G.kicad_prl",
