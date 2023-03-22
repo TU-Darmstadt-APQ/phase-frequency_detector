@@ -10,11 +10,11 @@ Component,Quantity Per PCB,References,Value,MFN,PN,Description,Footprint,Sheetpa
 9,3,C21  C29  C32,100u,Panasonic,ECA-1AM101I,"Polarized capacitor, small symbol",CP_Radial_D5.0mm_P2.50mm,/
 10,1,D3,PMEG2010,Nexperia,"PMEG2010AET,215","Schottky diode, cathode on pins 2 and 3",SOT-23,/
 11,2,D1-D2,SMB,Bourns,SMBJ40CA-QH,Bidirectional transient-voltage-suppression diode,D_SMB,/
-12,1,J4,C64AC,HARTING,09221326921222,"DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)",DIN41612_C_2x32_Male_Horizontal_THT,/
+12,1,J4,C64AC,Harting,09221326921222,"DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)",DIN41612_C_2x32_Male_Horizontal_THT,/
 13,1,J3,Error_Out,Linx Technologies,CONBNC002,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",BNC_Amphenol_B6252HB-NPP3G-50_Horizontal,/
 14,1,J6,Fast_Out,Linx Technologies,CONREVSMA006.062-G,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",BNC_Amphenol_B6252HB-NPP3G-50_Horizontal,/Fast PD regulator/
 15,2,J1-J2,REF,Linx Technologies,CONREVSMA006.062-G,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",SMA_Amphenol_132289_EdgeMount,/
-16,1,J5,Switch,,,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,/Fast PD regulator/
+16,1,J5,Switch,JST,B4B-PH-K-S,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,/Fast PD regulator/
 17,1,R24,4.7,ROHM Semiconductor,SDR03EZPF4R70,"Resistor, small symbol",R_0603_1608Metric,/Fast PD regulator/
 18,3,R6-R7  R16,20,Yageo,AC0603FR-0720RL,"Resistor, small symbol",R_0603_1608Metric,/
 19,2,R15  R26,49.9,Vishay / Dale,CRCW121049R9FKEA,"Resistor, small symbol",R_1210_3225Metric,/
@@ -43,7 +43,7 @@ Number of PCBs:,1
 Total components:,81
 Schematic Version:,1.4
 Schematic Date:,2022-01-25
-PCB Variant:,udefault
-BoM Date:,13.06.2022 10:36:48
+PCB Variant:,default
+BoM Date:,22.03.2023 21:40:04
 Schematic Source:,PFD_HMC439QS16G.kicad_sch
-KiCad Version:,Eeschema (6.0.1)
+KiCad Version:,Eeschema (6.0.7)

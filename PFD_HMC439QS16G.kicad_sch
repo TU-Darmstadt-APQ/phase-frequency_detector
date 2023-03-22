@@ -1894,6 +1894,7 @@
     )
   )
 
+
   (junction (at 99.06 163.83) (diameter 0) (color 0 0 0 0)
     (uuid 00f3ea8b-8a54-4e56-84ff-d98f6c00496c)
   )
@@ -3525,6 +3526,9 @@
     (property "Config" "DNF" (id 5) (at 77.47 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "PN" "HMC439QS16GE" (id 6) (at 77.47 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 52be6cba-47e9-481f-a9aa-76ea4ed01fed))
     (pin "10" (uuid 84d10bc8-6368-49cd-a0ac-c7f2ba51aa2c))
     (pin "11" (uuid 2e08e772-861f-4632-8911-98ec1f2508de))
@@ -5101,7 +5105,7 @@
     (property "Datasheet" "~" (id 3) (at 20.32 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFN" "HARTING " (id 4) (at 20.32 147.32 0)
+    (property "MFN" "Harting" (id 4) (at 20.32 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "PN" "09221326921222 " (id 5) (at 20.32 147.32 0)
