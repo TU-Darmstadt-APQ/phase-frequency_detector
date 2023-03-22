@@ -48,10 +48,20 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         "silk_over_copper|230000000|141910000|dea30d29-44e9-47fc-bccc-6928d5c29cea|2102c637-9f11-48f1-aae6-b4139dc22be2",
-        "silk_over_copper|230000000|146950000|dea30d29-44e9-47fc-bccc-6928d5c29cea|3f2a6679-91d7-4b6c-bf5c-c4d5abb2bc44"
+        "silk_over_copper|230000000|146950000|dea30d29-44e9-47fc-bccc-6928d5c29cea|3f2a6679-91d7-4b6c-bf5c-c4d5abb2bc44",
+        "silk_over_copper|230045000|146950000|dea30d29-44e9-47fc-bccc-6928d5c29cea|c7cd39db-931a-4d86-96b8-57e6b39f58f9",
+        "silk_over_copper|230046000|143130000|dea30d29-44e9-47fc-bccc-6928d5c29cea|000b46d6-b833-4804-8f56-56d539f76d09",
+        "silk_over_copper|230046000|145730000|dea30d29-44e9-47fc-bccc-6928d5c29cea|49b5f540-e128-4e08-bb09-f321f8e64056",
+        "silk_over_copper|230046000|145730000|dea30d29-44e9-47fc-bccc-6928d5c29cea|ceb12634-32ca-4cbf-9ff5-5e8b53ab18ad"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -354,7 +364,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PFD_HMC439QS16G.kicad_pro",
+    "filename": "phase-frequency_detector.kicad_pro",
     "version": 1
   },
   "net_settings": {

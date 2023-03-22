@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Fast PD regulator")
-    (date "2022-01-02")
-    (rev "1.4")
+    (title "Phase-Frequency Detector")
+    (date "2023-03-22")
+    (rev "1.4.1")
     (company "Atoms-Photons-Quanta, IAP, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )

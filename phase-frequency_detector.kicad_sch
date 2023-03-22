@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "HMC439 Phase-Frequency Detector")
-    (date "2022-01-25")
-    (rev "1.4")
+    (title "Phase-Frequency Detector")
+    (date "2023-03-22")
+    (rev "1.4.1")
     (company "Atoms-Photons-Quanta, IAP, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
@@ -3525,7 +3525,7 @@
     (property "Value" "HMC439QS16G" (id 1) (at 78.74 82.55 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "footprints:QSOP-16_3.9x4.9mm_P0.635mm_EP_2.3mmx1.75mm" (id 2) (at 77.47 124.46 0)
+    (property "Footprint" "footprints:QSOP-16_3.9x4.9mm_P0.635mm_EP_2.3mmx1.75mm_DNF" (id 2) (at 77.47 124.46 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 77.47 124.46 0)
@@ -4720,7 +4720,7 @@
     (property "Value" "HMC365S8G" (id 1) (at 113.03 23.3426 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm" (id 2) (at 114.3 53.34 0)
+    (property "Footprint" "footprints:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm_DNF" (id 2) (at 114.3 53.34 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/HMC365S8G.pdf" (id 3) (at 113.03 50.8 0)
@@ -5746,7 +5746,7 @@
       (reference "RV1") (unit 1) (value "500") (footprint "Potentiometer_THT:Potentiometer_Vishay_43_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005c6b12de"
-      (reference "U1") (unit 1) (value "HMC439QS16G") (footprint "footprints:QSOP-16_3.9x4.9mm_P0.635mm_EP_2.3mmx1.75mm")
+      (reference "U1") (unit 1) (value "HMC439QS16G") (footprint "footprints:QSOP-16_3.9x4.9mm_P0.635mm_EP_2.3mmx1.75mm_DNF")
     )
     (path "/00000000-0000-0000-0000-00005c669751"
       (reference "U2") (unit 1) (value "LT3045EMSE") (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm")
@@ -5767,7 +5767,7 @@
       (reference "U5") (unit 2) (value "ADA4896-2ARMZ") (footprint "footprints:MSOP-8_3x3mm_P0.65mm_mod")
     )
     (path "/00000000-0000-0000-0000-00006058f7be"
-      (reference "U6") (unit 1) (value "HMC365S8G") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm")
+      (reference "U6") (unit 1) (value "HMC365S8G") (footprint "footprints:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm_DNF")
     )
     (path "/00000000-0000-0000-0000-00006072aebc"
       (reference "U7") (unit 1) (value "L7808") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
