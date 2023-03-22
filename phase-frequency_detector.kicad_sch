@@ -3154,6 +3154,17 @@
     (uuid fee74888-771a-4f17-bb94-ec0e0b8f98c7)
   )
 
+  (text "Input frequency range\nWith divider (U6): 0.5 to 5.2 GHz\nWithout divider: 0.01 to 1.3 GHz\n"
+    (at 26.67 29.845 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 54d56ac2-8889-49d9-b6d5-b2895706ab69)
+  )
+  (text "Close JP1 and JP2,\nif the divider (U6)\nis not used.\n"
+    (at 150.495 21.59 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 6a2bedf7-7764-44a9-ae9e-e0665eacdcf8)
+  )
+
   (global_label "+8V" (shape output) (at 215.9 139.7 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid 0cc9bf07-55b9-458f-b8aa-41b2f51fa940)
