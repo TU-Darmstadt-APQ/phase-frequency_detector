@@ -1,4 +1,4 @@
-### Module positions - created on Wed Mar 22 22:31:04 2023 ###
+### Module positions - created on Wed Mar 22 23:35:29 2023 ###
 ### Printed by Pcbnew version (6.0.7)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -45,8 +45,8 @@ C39       100n           C_0603_1608Metric                                178.67
 D1        SMB            D_SMB                                             85.1000  -137.7000   90.0000  top
 D2        SMB            D_SMB                                             85.0000   -62.3000   90.0000  top
 D3        PMEG2010       SOT-23                                           107.0000   -91.6000    0.0000  top
-J1        REF            SMA_Amphenol_132289_EdgeMount                    227.3000   -82.0000    0.0000  top
-J2        IN             SMA_Amphenol_132289_EdgeMount                    227.3000   -65.0000    0.0000  top
+J1        REF            SMA_Amphenol_132289_EdgeMount                    226.4375   -82.0000    0.0000  top
+J2        IN             SMA_Amphenol_132289_EdgeMount                    226.5000   -65.0000    0.0000  top
 J3        Error_Out      BNC_Amphenol_B6252HB-NPP3G-50_Horizontal         217.1000  -105.0000  -90.0000  top
 J4        C64AC          DIN41612_C_2x32_Male_Horizontal_THT               75.4000  -139.3700   90.0000  top
 J5        Switch         JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical            184.8485  -124.5235  -90.0000  top
