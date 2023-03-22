@@ -398,7 +398,7 @@
       "idf": "",
       "netlist": "PFD_HMC439QS16G.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "frontpanel/assembly/phase-frequency_detector.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
