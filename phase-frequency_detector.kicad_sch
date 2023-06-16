@@ -6,7 +6,7 @@
 
   (title_block
     (title "Phase-Frequency Detector")
-    (date "2023-03-22")
+    (date "2023-06-16")
     (rev "1.4.1")
     (company "Atoms-Photons-Quanta, IAP, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
@@ -5773,7 +5773,7 @@
       (reference "U7") (unit 1) (value "L7808") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000620090fe/00000000-0000-0000-0000-000061fb0f2a"
-      (reference "U8") (unit 1) (value "ADG1613") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
+      (reference "U8") (unit 1) (value "ADG1413") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-0000620090fe/00000000-0000-0000-0000-000061eb46ba"
       (reference "U9") (unit 1) (value "LTC6228xS8") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
