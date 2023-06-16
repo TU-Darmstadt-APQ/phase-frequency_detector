@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 49,
     "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -66,7 +66,7 @@
     "zone_display_mode": 1
   },
   "meta": {
-    "filename": "PFD_HMC439QS16G.kicad_prl",
+    "filename": "phase-frequency_detector.kicad_prl",
     "version": 3
   },
   "project": {
