@@ -10,8 +10,8 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 9,"Polarized capacitor, small symbol",C_Polarized_Small,C21 C29 C32,100u,CP_Radial_D5.0mm_P2.50mm,3,~,Panasonic,ECA-1AM101I,
 10,"Schottky diode, cathode on pins 2 and 3",D_Schottky_AKK,D3,PMEG2010,SOT-23,1,~,Nexperia,"PMEG2010AET,215",
 11,Bidirectional transient-voltage-suppression diode,D_TVS,D1 D2,SMB,D_SMB,2,~,Bourns,SMBJ40CA-QH,
-12,"DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)",DIN41612_02x32_AC,J4,C64AC,DIN41612_C_2x32_Male_Horizontal_THT,1,~,Harting,09221326921222,
-13,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J3 J6,Error_Out,BNC_Amphenol_B6252HB-NPP3G-50_Horizontal,2,https://linxtechnologies.com/wp/wp-content/uploads/conbnc002-ds.pdf,Linx Technologies,CONBNC002 CONREVSMA006.062-G,
+12,"DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)",DIN41612_02x32_AC,J4,C64AC,DIN41612_C_2x32_Male_Horizontal_THT,1,~,Harting,9031646921,
+13,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J3 J6,Error_Out,BNC_Amphenol_B6252HB-NPP3G-50_Horizontal,2,https://linxtechnologies.com/wp/wp-content/uploads/conbnc002-ds.pdf,Linx Technologies,CONBNC002,
 14,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J1 J2,REF,SMA_Amphenol_132289_EdgeMount,2,https://www.mouser.de/datasheet/2/238/conrevsma006.062-g-1544686.pdf,Amphenol,132289,
 15,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J5,Switch,JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,1,~,JST,B4B-PH-K-S,
 16,"Resistor, small symbol",R_Small,R24,4.7,R_0603_1608Metric,1,~,ROHM Semiconductor,SDR03EZPF4R70,
@@ -41,8 +41,8 @@ Fitted Components:,81
 Number of PCBs:,1
 Total components:,81
 Schematic Version:,1.4.1
-Schematic Date:,2023-03-22
+Schematic Date:,2023-06-16
 PCB Variant:,default
-BoM Date:,16.06.2023 12:38:22
+BoM Date:,23.06.2023 15:53:51
 Schematic Source:,phase-frequency_detector.kicad_sch
 KiCad Version:,Eeschema (6.0.7)

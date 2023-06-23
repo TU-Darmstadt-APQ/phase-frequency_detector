@@ -5119,7 +5119,7 @@
     (property "MFN" "Harting" (id 4) (at 20.32 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PN" "09221326921222 " (id 5) (at 20.32 147.32 0)
+    (property "PN" "9031646921" (id 5) (at 20.32 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "a1" (uuid 180b9e8f-6dae-4fa4-a1c6-e33af971accb))
@@ -5773,7 +5773,7 @@
       (reference "U7") (unit 1) (value "L7808") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000620090fe/00000000-0000-0000-0000-000061fb0f2a"
-      (reference "U8") (unit 1) (value "ADG1413") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
+      (reference "U8") (unit 1) (value "ADG1613") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-0000620090fe/00000000-0000-0000-0000-000061eb46ba"
       (reference "U9") (unit 1) (value "LTC6228xS8") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
