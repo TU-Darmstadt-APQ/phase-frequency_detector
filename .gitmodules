@@ -1,0 +1,3 @@
+[submodule "switch_breakout"]
+	path = switch_breakout
+	url = git@github.com:TU-Darmstadt-APQ/phase-frequency_detector_switch_breakout.git
