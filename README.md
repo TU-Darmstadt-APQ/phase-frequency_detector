@@ -7,21 +7,13 @@ This repository contains the [KiCad](https://www.kicad.org/) design files of a p
 **Features**
 
 - Input frequency range
-
   - 10 MHz to 1.3 GHz without divider
-
   - 500 MHz to 5.2 GHz with divider (HMC365)
-
 - Input signal level: -10 dBm to +10 dBm
-
 - Error signal output:
-
   - Bandwidth 4 MHz (2. order filter)
-
   - Output voltage ±1 V max. (high-Z)
-
 - PD controller
-
   - Output voltage ±5 V max. (high-Z)
   - Level adjustable between 4% and 100% via frontpanel trim pot
   - Gain sign adjustable via frontpanel switch
@@ -52,8 +44,8 @@ T. Preuschoff, *Laser Technologies for Applications in Quantum Information Scien
 Requirements
 ----------------------
 - Dual power supply
-   - +15 V (0.5 A typ.)
-   - \- 15 V (0.1 A typ.)
+   - +15 V (0.35 A typ.)
+   - \- 15 V (0.15 A typ.)
 - 19-inch rack mount (e.g. [Fischer Elektronik BGT384](https://www.fischerelektronik.de/web_fischer/en_GB/cases/N05.1/19%22%20subracks/$catalogue/fischerData/PR/BGT384_180/search.xhtml))
 
 License
