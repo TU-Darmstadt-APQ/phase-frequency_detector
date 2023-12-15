@@ -4,7 +4,7 @@ Phase-Frequency Detector
 =====================
 This repository contains the [KiCad](https://www.kicad.org/) design files of a phase-frequency detector designed for application in optical phase-locked loops (OPLL). The detector compares a beat-note signal with a reference signal and creates an output signal proportional to the phase deviation of the beat-note from the reference. Optionally, the beat-note input can be equipped with a divider (default: 4) for a larger input-frequency range.  The module also comprises a fast analog proportional-derivative controller for high-bandwidth feedback. 
 
-![PCB image](phase-frequency_detector.png)
+![PCB image](img/phase-frequency_detector.png)
 
 **Features**
 
