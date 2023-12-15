@@ -6,8 +6,8 @@
 
   (title_block
     (title "Phase-Frequency Detector")
-    (date "2023-11-03")
-    (rev "1.4.2")
+    (date "2023-12-15")
+    (rev "1.5")
     (company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
