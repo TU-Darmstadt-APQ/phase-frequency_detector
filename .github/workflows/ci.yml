@@ -76,7 +76,7 @@ jobs:
       - name: Download repository
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: false
 
       - name: Run ERC
         uses: INTI-CMNB/KiBot@v2_k7
@@ -102,7 +102,7 @@ jobs:
       - name: Download repository
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: false
 
       - name: Run DRC
         uses: INTI-CMNB/KiBot@v2_k7
@@ -130,7 +130,7 @@ jobs:
       - name: Download repository
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: false
 
       - uses: INTI-CMNB/KiBot@v2_k7
         with:
