@@ -10,7 +10,7 @@ on:
       - '**.kicad_sch'
       - '**.kicad_pcb'
       - '.github/workflows/ci.yml'
-      - 'config.kibot.yaml'
+      - 'KiCad/config.kibot.yaml'
     # Ignore the push event when creating tags
     tags-ignore:
       - 'v?[0-9]+.[0-9]+.[0-9]+'
@@ -19,9 +19,9 @@ on:
       - published
 
 env:
-  SCHEMATIC_FILE: phase-frequency_detector.kicad_sch
-  PCB_FILE: phase-frequency_detector.kicad_pcb
-  KIBOT_CONFIG: config.kibot.yaml
+  SCHEMATIC_FILE: KiCad/phase-frequency_detector.kicad_sch
+  PCB_FILE: KiCad/phase-frequency_detector.kicad_pcb
+  KIBOT_CONFIG: KiCad/config.kibot.yaml
 
 jobs:
   tests:
